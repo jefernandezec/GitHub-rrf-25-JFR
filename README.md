@@ -1,6 +1,8 @@
 # Reproducible Research Fundamentals 2025
 ## Using GitHub for Collaborative Research - README
 
+## This version: September 30th.
+
 ## Introduction
 
 Welcome to the DIME Analytics training on GitHub and reproducible workflows. Over the next four days, you will learn how to implement transparent and reproducible workflows. This starts with essential GitHub skills and how to apply them in your data projects. The goal is for you to use GitHub across all stages of the data workflow—starting from data management to cleaning, tidying, constructing indicators, analysis, and exporting reproducible outputs.
