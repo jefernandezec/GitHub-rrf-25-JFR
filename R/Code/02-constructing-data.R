@@ -1,17 +1,6 @@
 # Reproducible Research Fundamentals 
 # 02. Data construction
 
-library(tidyverse)
-library(labelled)
-library(haven)
-library(dplyr)
-
-# RRF - 2024 - Construction
-
-#### Read data ----
-
-data_path <- "C:/Users/wb553773/OneDrive - WBG/Training/Credible Analytics/DataWork/Data/"
-
 # Preliminary - Load data
 # Load HH data
 hh_data <- read_dta(file.path(data_path, "Intermediate/TZA_CCT_HH.dta"))
@@ -30,9 +19,6 @@ secondary_data <- read_dta(file.path(data_path, "Intermediate/TZA_amenity_tidy.d
 # 7 Total medical facilities - secondary amenities
 
 # Exercise 2: Standardize conversion values ----
-acre_conv <- ....
-usd <- ....
-
 # Data construction: HH 
 
 # Area in acres (Convert units for farming area)

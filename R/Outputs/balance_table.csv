@@ -1,0 +1,6 @@
+"variable","test_name","var_type","row_type","var_label","label","stat_1","stat_2","estimate","statistic","conf.low","conf.high","p.value"
+"area_acre_w","wilcox.test","continuous","label","area_acre_w","area_acre_w","1.63 (1.31)","1.70 (1.39)","-8.591938e-06","378,759","-1.919312e-05","3.178768e-06","0.5"
+"days_sick","wilcox.test","continuous","label","Average sick days","Average sick days","11 (9)","10 (8)","5.500377e-05","77,586","-3.706752e-05","9.999557e-01","0.6"
+"food_cons_usd","wilcox.test","continuous","label","Annual food consumption value","Annual food consumption value","992,625 (791,353)","925,122 (746,516)","3.900000e+04","402,087","-1.170000e+04","8.993400e+04","0.14"
+"nonfood_cons_usd","wilcox.test","continuous","label","Annual non-food consumption value","Annual non-food consumption value","246,049 (415,541)","194,629 (331,337)","1.515000e+04","420,785","5.700000e+03","2.520000e+04","0.001"
+"duration","wilcox.test","continuous","label","Duration of the interview (minutes)","Duration of the interview (minutes)","106 (32)","106 (33)","-7.763167e-07","384,706","-2.999969e+00","2.999969e+00","0.9"

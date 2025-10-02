@@ -1,14 +1,33 @@
 # Reproducible Research Fundamentals 2024 - R
 
-Welcome to the **Reproducible Research Fundamentals 2024** training repository. This repository will guide you through all the exercises across the following stages:
+## Overview
 
-- **0. GitHub Workflow**: Gain essential GitHub skills, including how to create branches, commit changes, and open pull requests.
-- **1. Data Processing**: Learn to clean and tidy your datasets in preparation for analysis.
-- **2. Data Construction**: Build indicators and variables from the processed data.
-- **3. Data Analysis**: Conduct analyses using the constructed data.
-- **4. Reproducibility Package**: Package all work into a reproducible format for sharing and validation.
 
-Feel free to update this README as you progress through the sessions and customize it to reflect the details of your project. For more details on the elements required for a reproducibility package, refer to our [README template](https://github.com/worldbank/wb-reproducible-research-repository/blob/main/resources/README_Template.md), which you will cover in the **Reproducibility Package** session.
 
-Remember this is what you will share with your peer at the end of the training for review so this needs to be updated before sharing. 
+## Instructions
 
+For a new user, please follow the next instructions:
+
+1. Open the R project (R.Rproj) and the main.R file
+2. Retrieve the environment used by the authors, run
+   renv::restore() and follow the prompts
+3. Specify the data_path to your specific directory
+4. Run the code
+
+## Data Availability Statements
+
+This project relies on two data sources:
+
+1. Health data on Tanzania: TCA_CCT_baseline.dta and treat_status.dta
+Were provided by XXX
+
+2. Medical facilities data from Open Street Maps. Accessed Sep 2025
+
+
+## Software
+
+This package was last run in R 4.3.0
+
+## Dependencies
+
+All the dependencies are stored in the "renv.lock" file
